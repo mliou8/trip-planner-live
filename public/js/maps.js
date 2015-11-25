@@ -43,19 +43,19 @@ function initialize_gmaps() {
         [40.707119, -74.003602]
       ];
 
-  drawLocation(hotelLocation, {
-    icon: '/images/lodging_0star.png'
-  });
-  restaurantLocations.forEach(function(loc) {
-    drawLocation(loc, {
-      icon: '/images/restaurant.png'
-    });
-  });
-  activityLocations.forEach(function(loc) {
-    drawLocation(loc, {
-      icon: '/images/star-3.png'
-    });
-  });
+  // drawLocation(hotelLocation, {
+  // //   icon: '/images/lodging_0star.png'
+  // // });
+  // // restaurantLocations.forEach(function(loc) {
+  // //   drawLocation(loc, {
+  // //     icon: '/images/restaurant.png'
+  // //   });
+  // // });
+  // // activityLocations.forEach(function(loc) {
+  // //   drawLocation(loc, {
+  // //     icon: '/images/star-3.png'
+  // //   });
+  //  });
 }
 
 $(document).ready(function() {
